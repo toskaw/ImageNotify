@@ -14,10 +14,10 @@ class ImageNotifyView extends Ui.View {
 	var height;
 	
     hidden var paletteTEST=[
-    	0x000000, 
-     	0x555555,
-    	0xAAAAAA,
-	   	0xFFFFFF
+    	0xFF000000, 
+     	0xFF555555,
+    	0xFFAAAAAA,
+	   	0xFFFFFFFF
     ];	
     
     function initialize(i, s) {
@@ -26,7 +26,6 @@ class ImageNotifyView extends Ui.View {
     }
     //! Load your resources here
     function onLayout(dc) {
-        setLayout(Rez.Layouts.MainLayout(dc));
         width = dc.getWidth();
         height = dc.getHeight();
     }
@@ -94,7 +93,6 @@ class ImageNotifyView extends Ui.View {
         status = 0;
         Comm.makeImageRequest(
             "http://127.0.0.1:8080/",
-			//"http://webserver/~user/test.png",
 			{"id" => index},
 			{
                 :palette=>paletteTEST,

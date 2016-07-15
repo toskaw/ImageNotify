@@ -20,7 +20,6 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
  		if ( key == KEY_ENTER ) {
     		Comm.makeJsonRequest(
             	"http://127.0.0.1:8080/",
-				//"http://webserver/~user/test.html",
 				{},
 				{
                		"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
