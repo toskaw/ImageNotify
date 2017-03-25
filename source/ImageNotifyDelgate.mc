@@ -12,13 +12,28 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
         Ui.BehaviorDelegate.initialize();
         size = s;
         notify = handler;
-        Comm.setMailboxListener( method(:onMail) );
-    }
+        if(Comm has :registerForPhoneAppMessages) {
+            Comm.registerForPhoneAppMessages(method(:onMsg));
+        } else {
+            Comm.setMailboxListener(method(:onMail));
+        }
+        if (size == 0) {
+        	Comm.makeWebRequest(
+            	"http://127.0.0.1:8080/",
+				{},
+				{
+               		"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
+            	},
+            	method(:onReceive)
+        	);
+        }
+        
+     }
 
     function onKey(evt) {
         var key = evt.getKey();
  		if ( key == KEY_ENTER ) {
-    		Comm.makeJsonRequest(
+    		Comm.makeWebRequest(
             	"http://127.0.0.1:8080/",
 				{},
 				{
@@ -45,16 +60,38 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
     
     function onMail(mailIter)
     {
-    	Comm.makeJsonRequest(
-			"http://127.0.0.1:8080/",
-			//"http://webserver/~user/test.html",
-			{},
-			{
-            	"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
-            },
-            method(:onReceive)
+    	Sys.println("onMail");
+    	try {
+    	Comm.makeWebRequest(
+				"http://127.0.0.1:8080/",
+				{},
+				{
+            		"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
+            	},
+            	method(:onReceive)
         );
-        Comm.emptyMailbox();
+        	//Comm.emptyMailbox();
+        }
+        catch (ex) {
+        	Sys.println(ex.getErrorMessage());
+        }
+    }
+    function onMsg(msg) {
+       	Sys.println("onMsg");
+    	try {
+    		Comm.makeWebRequest(
+				"http://127.0.0.1:8080/",
+				{},
+				{
+            		"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
+            	},
+            	method(:onReceive)
+        	);
+       }
+        catch (ex) {
+        	Sys.println(ex.getErrorMessage());
+        }
+    
     }
 
 }

@@ -23,6 +23,7 @@ class ImageNotifyView extends Ui.View {
     function initialize(i, s) {
     	index = i;
     	size = s;
+    	View.initialize();
     }
     //! Load your resources here
     function onLayout(dc) {

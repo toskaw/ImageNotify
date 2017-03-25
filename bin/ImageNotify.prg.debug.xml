@@ -1,128 +1,163 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="24" pc="268435458" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="25" pc="268435468" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="29" pc="268435481" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="30" pc="268435500" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="41" pc="268435525" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="42" pc="268435542" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="43" pc="268435578" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="44" pc="268435590" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="45" pc="268435603" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="46" pc="268435646" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="47" pc="268435689" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="48" pc="268435725" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="51" pc="268435787" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="52" pc="268435850" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="55" pc="268435892" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="56" pc="268435928" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="57" pc="268435940" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="58" pc="268435953" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="59" pc="268435996" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="60" pc="268436039" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="61" pc="268436075" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="64" pc="268436137" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="67" pc="268436185" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="68" pc="268436221" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="69" pc="268436233" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="70" pc="268436327" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="71" pc="268436421" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="77" pc="268436449" symbol="drawIndicator"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="87" pc="268436554" symbol="requestImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="88" pc="268436571" symbol="requestImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="89" pc="268436590" symbol="requestImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="91" pc="268436594" symbol="requestImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="93" pc="268436625" symbol="requestImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="94" pc="268436638" symbol="requestImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="106" pc="268436754" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="107" pc="268436768" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="108" pc="268436778" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="110" pc="268436800" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="111" pc="268436812" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="115" pc="268436831" symbol="onReceiveImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="116" pc="268436842" symbol="onReceiveImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="117" pc="268436852" symbol="onReceiveImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="118" pc="268436865" symbol="onReceiveImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="121" pc="268436884" symbol="onReceiveImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="122" pc="268436903" symbol="onReceiveImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="123" pc="268436922" symbol="onReceiveImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="124" pc="268436935" symbol="onReceiveImage"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="12" pc="268436954" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="13" pc="268436976" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="14" pc="268436986" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="15" pc="268436996" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="19" pc="268437031" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="20" pc="268437044" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="21" pc="268437058" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="29" pc="268437127" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="32" pc="268437133" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="36" pc="268437160" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="37" pc="268437171" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="38" pc="268437196" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="41" pc="268437225" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="42" pc="268437238" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="48" pc="268437264" symbol="onMail"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="57" pc="268437333" symbol="onMail"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="9" pc="268437352" symbol="onStart"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="10" pc="268437398" symbol="onStart"/>
-<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="19" pc="268437461" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="20" pc="268437504" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="21" pc="268437579" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="22" pc="268437631" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="23" pc="268437683" symbol="MainLayout"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="23" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="24" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="25" pc="268435470" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="26" pc="268435480" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="29" pc="268435499" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="30" pc="268435503" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="31" pc="268435522" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="37" pc="268435542" symbol="onShow"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="41" pc="268435547" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="42" pc="268435551" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="43" pc="268435568" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="44" pc="268435604" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="45" pc="268435616" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="46" pc="268435629" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="47" pc="268435672" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="48" pc="268435715" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="49" pc="268435751" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="52" pc="268435813" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="53" pc="268435876" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="56" pc="268435918" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="57" pc="268435954" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="58" pc="268435966" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="59" pc="268435979" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="60" pc="268436022" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="61" pc="268436065" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="62" pc="268436101" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="65" pc="268436163" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="68" pc="268436205" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="69" pc="268436241" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="70" pc="268436253" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="71" pc="268436347" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="72" pc="268436441" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="77" pc="268436467" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="78" pc="268436471" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="84" pc="268436571" symbol="onHide"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="87" pc="268436576" symbol="requestImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="88" pc="268436580" symbol="requestImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="89" pc="268436597" symbol="requestImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="90" pc="268436610" symbol="requestImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="92" pc="268436614" symbol="requestImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="94" pc="268436645" symbol="requestImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="95" pc="268436658" symbol="requestImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="106" pc="268436772" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="107" pc="268436776" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="108" pc="268436790" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="109" pc="268436800" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="111" pc="268436816" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="112" pc="268436828" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="115" pc="268436845" symbol="onReceiveImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="116" pc="268436849" symbol="onReceiveImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="117" pc="268436860" symbol="onReceiveImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="118" pc="268436870" symbol="onReceiveImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="119" pc="268436883" symbol="onReceiveImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="122" pc="268436902" symbol="onReceiveImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="123" pc="268436915" symbol="onReceiveImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="124" pc="268436928" symbol="onReceiveImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyView.mc" lineNum="125" pc="268436941" symbol="onReceiveImage"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="11" pc="268436958" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="12" pc="268436962" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="13" pc="268436984" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="14" pc="268436994" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="15" pc="268437004" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="16" pc="268437019" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="18" pc="268437054" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="20" pc="268437086" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="21" pc="268437103" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="33" pc="268437176" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="34" pc="268437180" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="35" pc="268437193" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="36" pc="268437207" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="44" pc="268437276" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="47" pc="268437282" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="50" pc="268437307" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="51" pc="268437311" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="52" pc="268437322" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="53" pc="268437347" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="56" pc="268437376" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="57" pc="268437389" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="61" pc="268437413" symbol="onMail"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="63" pc="268437417" symbol="onMail"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="64" pc="268437438" symbol="onMail"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="65" pc="268437438" symbol="onMail"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="76" pc="268437517" symbol="onMail"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="79" pc="268437557" symbol="onMsg"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="80" pc="268437561" symbol="onMsg"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="81" pc="268437582" symbol="onMsg"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="82" pc="268437582" symbol="onMsg"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyDelgate.mc" lineNum="92" pc="268437661" symbol="onMsg"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="8" pc="268437701" symbol="onStart"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="9" pc="268437705" symbol="onStart"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="10" pc="268437745" symbol="onStart"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="14" pc="268437803" symbol="onStop"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="18" pc="268437808" symbol="getInitialView"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="19" pc="268437812" symbol="getInitialView"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="21" pc="268437852" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\workspace\\ImageNotify\\source\\ImageNotifyApp.mc" lineNum="22" pc="268437856" symbol="initialize"/>
+<entry filename="Rez" lineNum="19" pc="268437875" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="21" pc="268437879" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="22" pc="268438010" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268438062" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268438114" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8" object="true" symbol="ImageNotifyView"/>
-<entry id="29" method="true" symbol="requestImage"/>
+<entry id="30" method="true" symbol="requestImage"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389657" symbol="maxHeight"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry id="30" method="true" symbol="onReceiveImage"/>
-<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="31" method="true" symbol="onReceiveImage"/>
+<entry field="true" id="8388611" symbol="Toybox"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="18" method="true" symbol="MainLayout"/>
+<entry id="19" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="8388782" method="true" symbol="size"/>
+<entry field="true" id="8388782" symbol="size"/>
 <entry id="9" object="true" symbol="ImageNotifyDelegate"/>
-<entry id="8388636" module="true" symbol="Attention"/>
+<entry id="14" method="true" symbol="onMsg"/>
+<entry id="8388636" symbol="Attention"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="19" symbol="AppName"/>
+<entry field="true" id="20" symbol="AppName"/>
 <entry id="10" object="true" symbol="ImageNotifyApp"/>
-<entry field="true" id="17" symbol="LauncherIcon"/>
+<entry field="true" id="18" symbol="LauncherIcon"/>
 <entry id="8389660" symbol="palette"/>
-<entry id="27" symbol="paletteTEST"/>
+<entry id="28" symbol="paletteTEST"/>
 <entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389065" symbol="locY"/>
+<entry id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="20" symbol="mDelegate"/>
-<entry field="true" id="16" symbol="id_monkey"/>
-<entry field="true" id="24" symbol="index"/>
+<entry id="21" symbol="mDelegate"/>
+<entry field="true" id="17" symbol="id_monkey"/>
+<entry field="true" id="25" symbol="index"/>
 <entry id="11" symbol="notify"/>
-<entry field="true" id="22" symbol="status"/>
+<entry field="true" id="23" symbol="status"/>
 <entry field="true" id="8389067" symbol="height"/>
 <entry id="13" method="true" symbol="onMail"/>
-<entry id="15" module="true" symbol="Layouts"/>
+<entry id="16" module="true" symbol="Layouts"/>
+<entry id="8389939" symbol="registerForPhoneAppMessages"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="23" symbol="bitmap"/>
+<entry field="true" id="24" symbol="bitmap"/>
 <entry id="8389345" symbol="rezId"/>
 <entry field="true" id="8389066" symbol="width"/>
-<entry field="true" id="8389063" symbol="identifier"/>
-<entry id="14" module="true" symbol="Menus"/>
-<entry id="28" method="true" symbol="drawIndicator"/>
+<entry id="8389063" symbol="identifier"/>
+<entry id="15" module="true" symbol="Menus"/>
+<entry id="29" method="true" symbol="drawIndicator"/>
 <entry id="12" method="true" symbol="onReceive"/>
-<entry field="true" id="26" symbol="y"/>
-<entry field="true" id="25" symbol="x"/>
+<entry field="true" id="27" symbol="y"/>
+<entry field="true" id="26" symbol="x"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
-<entry id="21" symbol="mView"/>
+<entry id="22" symbol="mView"/>
 <entry id="8389661" symbol="maxWidth"/>
 </symbolTable>
 <localVars>
-<entry endPc="268437157" name="key" stackId="2" startPc="268437031"/>
-<entry endPc="268437700" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268437504"/>
+<entry endPc="268437306" name="key" stackId="2" startPc="268437180"/>
+<entry endPc="268438131" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268437879"/>
 </localVars>
 <annotations/>
 <functions>
@@ -180,14 +215,23 @@
 <param id="mailIter"/>
 <documentation/>
 </functionEntry>
+<functionEntry name="onMsg" parent="ImageNotifyDelegate">
+<param id="msg"/>
+<documentation/>
+</functionEntry>
 <functionEntry name="onStart" parent="ImageNotifyApp">
+<param id="state"/>
 <documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry name="onStop" parent="ImageNotifyApp">
+<param id="state"/>
 <documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry name="getInitialView" parent="ImageNotifyApp">
 <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="initialize" parent="ImageNotifyApp">
+<documentation/>
 </functionEntry>
 <functionEntry name="MainLayout" parent="Layouts">
 <param id="dc"/>
