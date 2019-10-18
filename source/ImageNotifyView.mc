@@ -67,7 +67,12 @@ class ImageNotifyView extends Ui.View {
         else if (status == -1) {
          	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
         	dc.clear();
-        	dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - 15, Gfx.FONT_MEDIUM, "No Data", Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        	if (isConnect()) {
+        		dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - 15, Gfx.FONT_MEDIUM, "No Data", Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        	}
+        	else {
+        		dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - 15, Gfx.FONT_MEDIUM, "No Connection", Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        	}
         	dc.drawText(dc.getWidth()/2, dc.getHeight()/2 + 15, Gfx.FONT_MEDIUM, "Press Enter", Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
          	drawIndicator(dc, index);
         }
@@ -85,7 +90,7 @@ class ImageNotifyView extends Ui.View {
     }
     
     function requestImage() {
-    	if (size == 0) {
+    	if (size == 0 || !isConnect()) {
     		status = -1;
     		return;
     	}
@@ -125,5 +130,13 @@ class ImageNotifyView extends Ui.View {
         	Ui.requestUpdate(); 
          }
     }
-
+	function isConnect() {
+		var info = Sys.getDeviceSettings();
+		if (info has :connectionAvailable) {
+			return info.connectionAvailable;
+		}
+		else {
+			return info.phoneConnected;
+		}
+	}
 }

@@ -17,12 +17,12 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
         } else {
             Comm.setMailboxListener(method(:onMail));
         }
-        if (size == 0) {
+        if (size == 0 && isConnect()) {
         	Comm.makeWebRequest(
             	"http://127.0.0.1:8080/",
 				{},
 				{
-               		"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
+               		:headers => { "Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED }
             	},
             	method(:onReceive)
         	);
@@ -32,12 +32,12 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
 
     function onKey(evt) {
         var key = evt.getKey();
- 		if ( key == KEY_ENTER ) {
+ 		if ( key == KEY_ENTER && isConnect()) {
     		Comm.makeWebRequest(
             	"http://127.0.0.1:8080/",
 				{},
 				{
-               		"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
+               		:headers => { "Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED }
             	},
             	method(:onReceive)
         	);
@@ -66,7 +66,7 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
 				"http://127.0.0.1:8080/",
 				{},
 				{
-            		"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
+            		:headers => { "Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED }
             	},
             	method(:onReceive)
         );
@@ -83,7 +83,7 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
 				"http://127.0.0.1:8080/",
 				{},
 				{
-            		"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
+            		:headers => { "Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED }
             	},
             	method(:onReceive)
         	);
@@ -93,5 +93,8 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
         }
     
     }
-
+	function isConnect() {
+		var info = Sys.getDeviceSettings();
+		return info.phoneConnected;
+	}
 }
