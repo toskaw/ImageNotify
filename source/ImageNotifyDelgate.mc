@@ -30,9 +30,8 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
         
      }
 
-    function onKey(evt) {
-        var key = evt.getKey();
- 		if ( key == KEY_ENTER && isConnect()) {
+	function onSelect() {
+ 		if ( isConnect()) {
     		Comm.makeWebRequest(
             	"http://127.0.0.1:8080/",
 				{},
@@ -43,10 +42,9 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
         	);
  			return true;
  		}
- 	
-        return Ui.BehaviorDelegate.onKey(evt); 
-    }
-    
+ 		return Ui.BehaviorDelegate.onSelect();
+	}
+
     function onReceive(responseCode, data) {
         if( responseCode == 200 ) {
         	size = data["count"].toNumber();
